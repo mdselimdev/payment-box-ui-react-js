@@ -1,0 +1,67 @@
+
+.payment-box{
+    position: relative;
+    text-align: center;
+    width: 246px;
+    background: #fff;
+    border: 1px solid #AFAFAF;
+    padding: 25px 73px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.payment-image{
+    width: 100px;
+    height: 42px;
+    display: block;
+}
+
+.check-button {
+    position: absolute;
+    left: 86%;
+    top: 14%;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    background: #AFAFAF;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.payment-boxbg {
+    border-color: #047267;
+}
+
+.backch{
+    background: #047267;
+}
+
+@media(max-width:576px){
+    .payment-box {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .paymentmain-box {
+        flex-wrap: wrap;
+    }
+    .payment-image {
+        width: 80px;
+    }
+    .paynow-btn button {
+        font-size: 18px;
+        padding: 12px 100px;
+    }
+}
+@media(max-width:960px){
+    .head-main-box {
+        transform: translate(-50%,15%);
+        width: 90%;
+    }
+    .paymentmain-box {
+        flex-wrap: wrap;
+    }
+    .payment-box:nth-child(4){
+        margin-top: 20px;
+    }
+}
